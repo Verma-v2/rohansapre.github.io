@@ -2106,7 +2106,8 @@
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
-		color: #fff;
+		color: black;
+		font-weight: bold;
 		text-align: center;
 		padding: 7.5em 0 2em 0;
 		cursor: default;
@@ -2140,6 +2141,10 @@
 			color: #fff;
 			font-size: 3em;
 			line-height: 1em;
+		}
+
+		#header p {
+			color: #fff;
 		}
 
 			#header h1 a {
