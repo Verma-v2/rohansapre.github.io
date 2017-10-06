@@ -1096,7 +1096,7 @@ header .row {
 header .top-bar {
 	display: block;
 	background: #000000;
-	min-width: 220px;
+	min-width: 150px;
 	min-height: 66px;
 	position: absolute;
 	left: 90px;
@@ -1128,10 +1128,9 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 .menu-toggle {
-	float: left;
 	width: 40px;
 	height: 40px;
-	margin-left: 20px;
+	margin-left: 55px;
 	margin-top: 13px;
 	display: block;
 	position: relative;
@@ -1196,7 +1195,7 @@ header .logo a {
 	background-color: rgba(255, 0, 119, 0);
 }
 .menu-toggle.is-clicked span::before, .menu-toggle.is-clicked span::after {
-	background-color: #ff0077;
+	background-color: #4169E1;
 	-moz-transition-delay: 0s, 0.2s;
 	-o-transition-delay: 0s, 0.2s;
 	-webkit-transition-delay: 0s, 0.2s;
